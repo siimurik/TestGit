@@ -1,0 +1,10 @@
+// For copying files
+git clone https://github.com/siimurik/TestGit.git
+
+// For adding files
+git add (filename)
+git commit -m "(message)"
+git push -u origin main
+username: siimurik
+password: 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
+
