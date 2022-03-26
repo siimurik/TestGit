@@ -1,0 +1,53 @@
+359  wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
+360  ll                                                                                         
+361  bash Anaconda3-2021.11Linuxx86_64.sh                                                     
+362  conda config --set auto_activate_basefalse                                                 
+363  conda activate                                                                              
+364  conda create -n nuclear39 python=3.9                                                        
+365  conda deactivate                                                                            
+366  conda activate nuclear39                                                                    
+367  conda config --append channels conda-forge                                                  
+368  conda search pyne                                                                           
+369  conda install pyne                                                                          
+370  conda install jupyter matplotlib seaborn bokeh pandas                                       
+371  ll                                                                                          
+372  ll Documents/                                                                               
+373  mkdir openmc_data                                                                           
+374  ll                                                                                          
+375  cd openmc_data/                                                                             
+376  https://anl.box.com/shared/static/9igk353zpy8fn9ttvtrqgzvw1vtejoz6.xz                       
+377  wget https://anl.box.com/shared/static/9igk353zpy8fn9ttvtrqgzvw1vtejoz6.xz                  
+378  wget https://anl.box.com/shared/static/uhbxlrx7hvxqw27psymfbhi7bx7s6u6a.xz                  
+379  jupyter &                                                                                   
+380  cd ..                                                                                       
+381  jupyter-notebook &                                                                          
+382  ll                                                                                          
+383  cd git_repository/                                                                          
+384  git clone https://github.com/deOliveira-R/course_reactor_physics.git                        
+385  cd ..                                                                                       
+386  ll                                                                                          
+387  cd /mnt/c/                                                                                  
+388  ll                                                                                          
+389  cd Users/siime/OneDrive/Desktop/                                                            
+390  ll                                                                                          
+391  cp -r endfb7/endfb7 ~/serpent_data/                                                         
+392  cd                                                                                          
+393  ll                                                                                          
+394  cd serpent_data/                                                                            
+395  ll                                                                                          
+396  mkdir endfb7                                                                                
+397  mv acedata/ endfb7/acedata/                                                                 
+398  ll                                                                                          
+399  mv sss* endfb7/                                                                             
+400  ll                                                                                          
+401  cd endfb7/                                                                                  
+402  ll                                                                                          
+403  cd ..                                                                                       
+404  ll                                                                                          
+405  rm ._sss_endfb7u.xsdir                                                                      
+406  ll                                                                                          
+407  pwd                                                                                         
+408  ls                                                                                          
+409  cd ../                                                                                      
+410  ls                                                                                          
+411  history                                                                                   
