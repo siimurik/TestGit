@@ -10,3 +10,6 @@ password: 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
 
 // How to run the donut.c file
 gcc donut.c -o donut -lm
+
+// How to delete folder and contents
+rm -r -v TestGit/
